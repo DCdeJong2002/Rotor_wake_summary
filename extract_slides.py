@@ -57,7 +57,7 @@ def extract_slides_from_pdf(pdf_path, output_folder="extracted_slides", slides_t
 
 # --- How to use ---
 if __name__ == "__main__":
-    pdf_file_path = "Chapter_4_combined.pdf" 
+    pdf_file_path = "Chapter_4_combined.pdf" #change to correct chapter PDF file path
     
     # Put the exact slide numbers you want in this list (e.g., slides 1, 4, 5, and 12)
     my_slides = [3, 4, 5, 6, 7, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 30, 31, 32, 33]
@@ -70,11 +70,11 @@ if __name__ == "__main__":
 
     my_slides_l4 = [11, 13, 21, 35, 49, 51, 62, 64, 67, 77, 78]
 
-    my_slides_l5 = [18, 61, 83, 84, 88, 89, 99, 106, 113]
+    my_slides_l5 = []
 
-    my_slides_l6 = [18, 61, 83, 84, 88, 89, 99, 106, 113]
+    my_slides_l6 = []
 
-    my_slides_l7 = [18, 61, 83, 84, 88, 89, 99, 106, 113]
+    my_slides_l7 = []
 
 
     # Run the function with the specific list
